@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 3s;
+}
+body{
+    background-color: rgb(2, 2, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.timeboss{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    z-index: -3;
+}
+.stick{
+    width: 200px;
+    height: 2px;
+    border-radius: 33px;
+    background-color: red;
+    margin-left: 140px;
+    z-index: 10;
+}
+
+.minhand{
+    width: 180px;
+    height: 12px;
+    border-radius: 11px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 20px;
+    z-index: 5;
+}
+
+.hourhand{
+    width: 180px;
+    height: 12px;
+    border-radius: 11px;
+    background-color: white;
+    margin-right: 20px;
+    z-index: 5;
+}
